@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Setup Code -->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <title>Midtown Statistics</title>
+    
+</head>
+
+<body style="margin-top:0;margin-left:50px;margin-right:50px;padding:5px">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Market Areas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Midtown.html">Midtown</a>
+                        <a class="dropdown-item" href="Heights.html">Heights</a>
+                        <a class="dropdown-item" href="Museum.html">Museum District</a>
+                        <a class="dropdown-item" href="Montrose.html">Montrose</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="HTML_code.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header and Introductory Paragraph -->
+    <div class="row content">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <h2 class="text-left">The Heights<br>Rental Statistics</h2>
+            <hr class="my-4">
+            <a href="Innerloop.html">
+                <img style="margin-bottom:20px;" src="Images/Inner Loop median values.png" class="rounded float-left thumbnail"
+                    alt="Inner Loop median values">
+            </a>
+            <p>Northwest of Downtown sits a section of historic neighborhoods that date back to the late 1800s. Residents once
+                flocked to the area to escape the big city, but today it’s home to diverse Houstonians that are drawn to its rich
+                and character-filled architecture, mom and pop-type shops and funky restaurants. <a href=https://www.visithoustontexas.com/about-houston/neighborhoods/houston-heights/>Visit the Heights at VisitTexas.</a>
+            </p>
+            <p>Find something you never knew you wanted at one of 19th Street’s quaint boutiques. Thrift stores, antique havens,
+                and cafes prove to be popular at the Heights-strip. It is important to realize that the Heights itself is comprised of
+                several neighborhoods that vary in their character and desirability.</p>
+            <p>The median rental home size in the Heights is 1,178sf and priced at a whooping $1.54sf. The first scatter plot does show a swath 
+                of homes up to about 1,500sf with drop off in number of units past that mark. The price per sf is more heavily represented
+                in the $1 - $2 band.</p>
+            <p>The last scatter plot shows us that most units are rented out in less than 50 days with the largest cluster renting
+                out in the first twenty days. The outliers are most likely overpriced.</p>
+        
+        </div>
+        <!-- Images at Page Bottom -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <h2 class="text-left">The Heights<br>at a Glance</h2>
+            <hr class="my-4">
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Inner Loop PSF.png" class="rounded float right thumbnail"
+                    alt="Inner Loop PSF">
+            </a>
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Heights Unit SF vs Price per SF.png"
+                    class="rounded float-left  thumbnail" alt="Inner Loop Unit SF">
+            </a>
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Heights District DOM vs Price per SF.png"
+                    class="rounded float right  thumbnail" alt="Inner Loop DOM">
+            </a>
+        </div>
+    </div>
+</body>
