@@ -13,7 +13,7 @@ The data was further filtered to four market areas and matplotlib was utilized t
 <p align="center"><img width="432" height="259" src="Images/Midtown%20District%20DOM%20vs%20Price%20per%20SF.png"></p>
 <br>
 <br>
-Visual Studio Code was used for the HTML and bootstrap code.  Individual pages were coded for:
+Visual Studio Code was used for the HTML and bootstrap code.  Individual pages were coded for:<br>
   - Home (index)     https://github.com/danawoodruff/Web-Design-Challenge/blob/main/index.html<br>
   - Comparison of market areas   https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Comparison.html<br>
   - Data             https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Data.html<br>
