@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -18,24 +19,12 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <title>Midtown Statistics</title>
+    <title>Heights Statistics</title>
     
 </head>
 
 <body style="margin-top:0;margin-left:50px;margin-right:50px;padding:5px">
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Market Areas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -57,7 +46,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="HTML_code.html">Home Page</a>
+                    <a class="nav-link" href="Home.html">Home Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparison.html">Comparison of Market Areas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Data.html">Data</a>
@@ -67,13 +59,159 @@
     </nav>
     <!-- Header and Introductory Paragraph -->
     <div class="row content">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-9 col-lg-6 col-xl-6">
             <h2 class="text-left">The Heights<br>Rental Statistics</h2>
             <hr class="my-4">
-            <a href="Innerloop.html">
-                <img style="margin-bottom:20px;" src="Images/Inner Loop median values.png" class="rounded float-left thumbnail"
-                    alt="Inner Loop median values">
-            </a>
+            <table class="table table-bordered table-hover table-sm">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">Market Area</th>
+                        <th scope="col">HAR Area</th>
+                        <th scope="col">Rental Price</th>
+                        <th scope="col">Price/SF</th>
+                        <th scope="col">Bldg SF</th>
+                        <th scope="col"># Beds</th>
+                        <th scope="col"># Baths</th>
+                        <th scope="col"># Stories</th>
+                        <th scope="col">DOM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>EADO</td>
+                        <td>4</td>
+                        <td>$1,750</td>
+                        <td>$1.22</td>
+                        <td>1,454</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>University</td>
+                        <td>4</td>
+                        <td>$1,425</td>
+                        <td>$1.08</td>
+                        <td>1,434</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Downtown</td>
+                        <td>9</td>
+                        <td>$1,850</td>
+                        <td>$1.67</td>
+                        <td>1,066</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>40</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>Heights</td>
+                        <td>9</td>
+                        <td>$2,000</td>
+                        <td>$1.54</td>
+                        <td>1,178</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Sabine</td>
+                        <td>9</td>
+                        <td>$2,750</td>
+                        <td>$1.41</td>
+                        <td>2,074</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Midtown</td>
+                        <td>16</td>
+                        <td>$1,950</td>
+                        <td>$1.38</td>
+                        <td>1,403</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Montrose</td>
+                        <td>16</td>
+                        <td>$1,485</td>
+                        <td>$1.42</td>
+                        <td>1,118</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>Rice Military</td>
+                        <td>16</td>
+                        <td>$2,650</td>
+                        <td>$1.27</td>
+                        <td>2,191</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>River Oaks</td>
+                        <td>16</td>
+                        <td>$1,800</td>
+                        <td>$1.53</td>
+                        <td>1,252</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>Museum District</td>
+                        <td>17</td>
+                        <td>$1,875</td>
+                        <td>$1.35</td>
+                        <td>1,457</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>West University</td>
+                        <td>17</td>
+                        <td>$2,875</td>
+                        <td>$1.51</td>
+                        <td>1,825</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>46</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th>Median</th>
+                        <th>-</th>
+                        <th>$1,875</th>
+                        <th>$1.41</th>
+                        <th>1,434</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>34</th>
+                    </tr>
+                </tbody>
+            </table>
+            
             <p>Northwest of Downtown sits a section of historic neighborhoods that date back to the late 1800s. Residents once
                 flocked to the area to escape the big city, but today it’s home to diverse Houstonians that are drawn to its rich
                 and character-filled architecture, mom and pop-type shops and funky restaurants. <a href=https://www.visithoustontexas.com/about-houston/neighborhoods/houston-heights/>Visit the Heights at VisitTexas.</a>
@@ -89,7 +227,7 @@
         
         </div>
         <!-- Images at Page Bottom -->
-        <div class="col-sm-12 col-md-3 col-lg-3">
+        <div class="col-sm-12 col-md-3 col-lg-6 col-xl-6">
             <h2 class="text-left">The Heights<br>at a Glance</h2>
             <hr class="my-4">
             <a href="Innerloop.html">

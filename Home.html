@@ -6,7 +6,8 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -19,11 +20,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <title>Midtown Statistics</title>
-    
+    <title>Houston Real Estate Statistics Landing Page</title>
 </head>
 
 <body style="margin-top:0;margin-left:50px;margin-right:50px;padding:5px">
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Market Areas</a>
@@ -46,9 +47,6 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Home.html">Home Page</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="Comparison.html">Comparison of Market Areas</a>
                 </li>
                 <li class="nav-item">
@@ -60,7 +58,34 @@
     <!-- Header and Introductory Paragraph -->
     <div class="row content">
         <div class="col-sm-12 col-md-6 col-lg-6">
-            <h2 class="text-left">Midtown<br>Rental Statistics</h2>
+            <h2 class="text-left">Rental Statistics<br> for Houston Real Estate</h2>
+            <hr class="my-4">
+            <img style="margin-bottom:20px;" src="Images/houston-areas.jpg" alt="Market Areas"
+                class="rounded main-image">
+            <p>Houston is a fantastic city to live in. If you are an aspiring landlord you have to decide where to own.
+                This is ultimately, of course, a balance between
+                capital cost and ROI (Return on Investment) but knowing your potential rental rates can help with your
+                calculation. HAR.com has information on rentals
+                that includes the number of bedrooms, unit size, and days on the market (DOM) before a lease was signed.
+            </p>
+            <p>The renter needs the same kind of information that a potential landlord does. Knowing the range of price
+                per square foot (PSF) helps the renter look in areas of town
+                that fit their budget...but do not be afraid to negotiate! Understanding a market area's average unit
+                size is helpful as it can shift focus towards
+                communities that are likely to provide more options in the desired unit size.</p>
+            <p>Houston Area Realtors Association (HAR, HAR.com) has divided the city into Areas and further divided it
+                into Market Areas. As example, the Market Areas of
+                Midtown and Montrose are both in Area 16. A summary of eleven of the hottest market areas is provided
+                here but we are going to take a more depth look into four
+                thriving market areas that are adjacent to one another in the heart of the inner loop: Montrose,
+                Midtown, Museum District, and the Heights.</p>
+            <img style="margin-left:60px; margin-top:20px;" src="Images/target-areas.jpg" alt="Market Areas"
+                class="rounded main-image">
+
+        </div>
+        <!-- Images at Page Bottom -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <h2 class="text-left">Inner Loop<br>at a Glance</h2>
             <hr class="my-4">
             <table class="table table-bordered table-hover table-sm">
                 <thead>
@@ -132,7 +157,7 @@
                         <td>3</td>
                         <td>20</td>
                     </tr>
-                    <tr class="table-warning">
+                    <tr>
                         <td>Midtown</td>
                         <td>16</td>
                         <td>$1,950</td>
@@ -211,34 +236,16 @@
                     </tr>
                 </tbody>
             </table>
-
-            <p>Midtown Houston is a model of urban living in the center of Houston. Residents, businesses, and visitors enjoy
-                a sustainable, walkable community with a thriving arts and entertainment scene and green oases.
-                Since 2012, Midtown Houston has experienced 50% population growth with almost 10,000 Houstonians now calling
-                it home. It has also been the site of nationally-awarded development, including Federal Transportation Agency
-                recognition and the Presidential Award of Excellence in Design and Implementation. <a href=https://midtownhouston.com/>Visit the Midtown District on their page.</a>
-            </p>
-            <p>Explore what makes Houston Midtown a great place to live, work, and play. We’re right in the middle of it all!</p>
-            <p>The median rental home size in Midtown is 1,403sf and priced at $1.38sf. The first scatter plot does show a swath 
-                of homes up to about 2,800sf with the price per sf decreasing as size increases.</p>
-            <p>The last scatter plot shows us that most units are rented out in less than 50 days with a large cluster renting
-                out in the first ten days. The outliers are most likely overpriced.</p>
-        
-        </div>
-        <!-- Images at Page Bottom -->
-        <div class="col-sm-12 col-md-3 col-lg-3">
-            <h2 class="text-left">Midtown<br>at a Glance</h2>
-            <hr class="my-4">
             <a href="Innerloop.html">
                 <img style="padding:10px;" src="Images/Inner Loop PSF.png" class="rounded float right thumbnail"
                     alt="Inner Loop PSF">
             </a>
             <a href="Innerloop.html">
-                <img style="padding:10px;" src="Images/Midtown Unit SF vs Price per SF.png"
+                <img style="padding:10px;" src="Images/Inner Loop Unit SF vs Price per SF.png"
                     class="rounded float-left  thumbnail" alt="Inner Loop Unit SF">
             </a>
             <a href="Innerloop.html">
-                <img style="padding:10px;" src="Images/Midtown District DOM vs Price per SF.png"
+                <img style="padding:10px;" src="Images/Inner Loop DOM vs Price per SF.png"
                     class="rounded float right  thumbnail" alt="Inner Loop DOM">
             </a>
         </div>
