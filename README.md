@@ -14,10 +14,11 @@ The data was further filtered to four market areas and matplotlib was utilized t
 <br>
 <br>
 Visual Studio Code was used for the HTML and bootstrap code.  Individual pages were coded for:
-  - Home (index)     https://github.com/danawoodruff/Web-Design-Challenge/blob/main/index.html
-  - Comparison of market areas   https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Comparison.html
-  - Data             https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Data.html
-  - Midtown          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Midtown.html
-  - Heights          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Heights.html
-  - Museum District  https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Museum.html
-  - Montrose         https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Montrose.html
+  - Home (index)     https://github.com/danawoodruff/Web-Design-Challenge/blob/main/index.html<br>
+  - Comparison of market areas   https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Comparison.html<br>
+  - Data             https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Data.html<br>
+  - Midtown          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Midtown.html<br>
+  - Heights          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Heights.html<br>
+  - Museum District  https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Museum.html<br>
+  - Montrose         https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Montrose.html<br>
+<br>
