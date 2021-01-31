@@ -20,7 +20,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <title>Market Area Comparison</title>
+    <title>Houston Real Estate Statistics Landing Page</title>
 </head>
 
 <body style="margin-top:0;margin-left:50px;margin-right:50px;padding:5px">
@@ -32,7 +32,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <!-- Dropdown Menu -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home Page</a>
+                    <a class="nav-link" href="Comparison.html">Comparison of Market Areas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Data.html">Data</a>
@@ -57,94 +57,40 @@
     </nav>
     <!-- Header and Introductory Paragraph -->
     <div class="row content">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="text-left">Rental Statistics<br> for Four Hot Markets</h2>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <h2 class="text-left">Rental Statistics<br> for Houston Real Estate</h2>
             <hr class="my-4">
-            <p>Data can be sliced and diced several ways but we will compare the rental unit square footage versus the
-                price per square foot for our four communities. Using the price per square foot (PSF) allows the user to
-                calculate the median price for their unit's square size by multiplication. In practice, a Realtor will
-                narrow down units in an area by size and calculate the median PSF based on a narrow range around their
-                target property's size.
+            <img style="margin-bottom:20px;" src="Images/houston-areas.jpg" alt="Market Areas"
+                class="rounded main-image">
+            <p>Houston is a fantastic city to live in. If you are an aspiring landlord you have to decide where to own.
+                This is ultimately, of course, a balance between
+                capital cost and ROI (Return on Investment) but knowing your potential rental rates can help with your
+                calculation. HAR.com has information on rentals
+                that includes the number of bedrooms, unit size, and days on the market (DOM) before a lease was signed.
             </p>
-            <p>It is also helpful to understand the PSF based on the number of bedrooms. This data is in the table
-                below.
-                While unit size generally increases with the number of bedrooms this data can be skewed for several
-                reasons. A common one is the age of the property. Bedrooms in older homes, as found in the Heights or
-                Montrose as example, tend to be much smaller than bedrooms in Midtown or in the Museum District.
-            </p>
+            <p>The renter needs the same kind of information that a potential landlord does. Knowing the range of price
+                per square foot (PSF) helps the renter look in areas of town
+                that fit their budget...but do not be afraid to negotiate! Understanding a market area's average unit
+                size is helpful as it can shift focus towards
+                communities that are likely to provide more options in the desired unit size.</p>
+            <p>Houston Area Realtors Association (HAR, HAR.com) has divided the city into Areas and further divided it
+                into Market Areas. As example, the Market Areas of
+                Midtown and Montrose are both in Area 16. A summary of eleven of the hottest market areas is provided
+                here but we are going to take a more depth look into four
+                thriving market areas that are adjacent to one another in the heart of the inner loop: Montrose,
+                Midtown, Museum District, and the Heights.</p>
+            <img style="margin-left:60px; margin-top:20px;" src="Images/target-areas.jpg" alt="Market Areas"
+                class="rounded main-image">
 
-            <!-- # of Bedrooms Summary Table -->
+        </div>
+        <!-- Images at Page Right -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+            <h2 class="text-left">Inner Loop<br>at a Glance</h2>
+            <hr class="my-4">
+            <!-- Hover Table -->
             <table class="table table-bordered table-hover table-sm">
                 <thead>
-                    <tr class="table-secondary">
-                        <th scope="col">Bedrooms</th>
-                        <th scope="col">Rental Price</th>
-                        <th scope="col">Price/SF</th>
-                        <th scope="col">Bldg SF</th>
-                        <th scope="col"># Baths</th>
-                        <th scope="col"># Stories</th>
-                        <th scope="col">DOM</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>$1,150</td>
-                        <td>$1.64</td>
-                        <td>700</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>35</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>$1,800</td>
-                        <td>$1.40</td>
-                        <td>1,244</td>
-                        <td>2</td>
-                        <td>1</td>
-                        <td>32</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>$2,700</td>
-                        <td>$1.24</td>
-                        <td>2,152</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>30</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>$3,700</td>
-                        <td>$1.31</td>
-                        <td>2,850</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>29</td>
-                    </tr>
-                    <tr class="table-info">
-                        <th>Median</th>
-                        <th>$2,250</th>
-                        <th>$1.35</th>
-                        <th>1,698</th>
-                        <th>2</th>
-                        <th>2</th>
-                        <th>31</th>
-                    </tr>
-                </tbody>
-            </table>
-            <p>When comparing all four communities we see definite trends. With the exception of the Museum
-                District we see a downward trend in PSF as the unit size increases...this illustrates why
-                realtors run comparables, or, "comps" on a narrower size band to get a more accurate picture
-                of their target property's PSF.</p>
-            <p>The Museum District has a uniform price band across all unit sizes...there is no price break
-                for renting a larger unit here!</p>
-            
-            <!-- Inner Loop Summary Table -->
-            <table class="table table-bordered table-hover table-sm">
-                <thead>
-                    <tr class="table-secondary">
+                    <tr class="table-primary">
                         <th scope="col">Market Area</th>
                         <th scope="col">HAR Area</th>
                         <th scope="col">Rental Price</th>
@@ -158,6 +104,39 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td>EADO</td>
+                        <td>4</td>
+                        <td>$1,750</td>
+                        <td>$1.22</td>
+                        <td>1,454</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>University</td>
+                        <td>4</td>
+                        <td>$1,425</td>
+                        <td>$1.08</td>
+                        <td>1,434</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Downtown</td>
+                        <td>9</td>
+                        <td>$1,850</td>
+                        <td>$1.67</td>
+                        <td>1,066</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
                         <td>Heights</td>
                         <td>9</td>
                         <td>$2,000</td>
@@ -167,6 +146,17 @@
                         <td>1</td>
                         <td>1</td>
                         <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Sabine</td>
+                        <td>9</td>
+                        <td>$2,750</td>
+                        <td>$1.41</td>
+                        <td>2,074</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>20</td>
                     </tr>
                     <tr>
                         <td>Midtown</td>
@@ -191,6 +181,28 @@
                         <td>34</td>
                     </tr>
                     <tr>
+                        <td>Rice Military</td>
+                        <td>16</td>
+                        <td>$2,650</td>
+                        <td>$1.27</td>
+                        <td>2,191</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>River Oaks</td>
+                        <td>16</td>
+                        <td>$1,800</td>
+                        <td>$1.53</td>
+                        <td>1,252</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
                         <td>Museum District</td>
                         <td>17</td>
                         <td>$1,875</td>
@@ -200,6 +212,17 @@
                         <td>2</td>
                         <td>2</td>
                         <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>West University</td>
+                        <td>17</td>
+                        <td>$2,875</td>
+                        <td>$1.51</td>
+                        <td>1,825</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>46</td>
                     </tr>
                     <tr class="table-info">
                         <th>Median</th>
@@ -214,31 +237,18 @@
                     </tr>
                 </tbody>
             </table>
-
-        </div>
-
-        <!-- Images at Page Right -->
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h2 class="text-left">Hot Markets<br>at a Glance</h2>
-            <hr class="my-4">
-
-            <a href="Comparison.html">
-                <img style="padding:10px;" src="Images/Heights Unit SF vs Price per SF.png"
-                    class="rounded float-left thumbnail" alt="Heights Unit SF">
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Inner Loop PSF.png" class="rounded float right thumbnail"
+                    alt="Inner Loop PSF">
             </a>
-            <a href="Comparison.html">
-                <img style="padding:10px;" src="Images/Midtown Unit SF vs Price per SF.png"
-                    class="rounded float-left thumbnail" alt="Midtown Unit SF">
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Inner Loop Unit SF vs Price per SF.png"
+                    class="rounded float-left  thumbnail" alt="Inner Loop Unit SF">
             </a>
-            <a href="Comparison.html">
-                <img style="padding:10px;" src="Images/Montrose Unit SF vs Price per SF.png"
-                    class="rounded float-left thumbnail" alt="Montrose Unit SF">
-            </a>
-            <a href="Comparison.html">
-                <img style="padding:10px;" src="Images/Museum District Unit SF vs Price per SF.png"
-                    class="rounded float-left thumbnail" alt="Museum District Unit SF">
+            <a href="Innerloop.html">
+                <img style="padding:10px;" src="Images/Inner Loop DOM vs Price per SF.png"
+                    class="rounded float right  thumbnail" alt="Inner Loop DOM">
             </a>
         </div>
+    </div>
 </body>
-© 2021 GitHub, Inc.
-            
