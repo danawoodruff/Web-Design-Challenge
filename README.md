@@ -11,3 +11,13 @@ The data was further filtered to four market areas and matplotlib was utilized t
 <br>
 <p align="center"><img width="432" height="259" src="Images/Midtown%20Unit%20SF%20vs%20Price%20per%20SF.png"></p>
 <p align="center"><img width="432" height="259" src="Images/Midtown%20District%20DOM%20vs%20Price%20per%20SF.png"></p>
+<br>
+<br>
+Visual Studio Code was used for the HTML and bootstrap code.  Individual pages were coded for:
+  - Home (index)     https://github.com/danawoodruff/Web-Design-Challenge/blob/main/index.html
+  - Comparison of market areas   https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Comparison.html
+  - Data             https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Data.html
+  - Midtown          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Midtown.html
+  - Heights          https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Heights.html
+  - Museum District  https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Museum.html
+  - Montrose         https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Montrose.html
