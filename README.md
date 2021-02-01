@@ -22,7 +22,7 @@ Visual Studio Code was used for the HTML and bootstrap code.  Individual pages w
   - Museum District  https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Museum.html<br>
   - Montrose         https://github.com/danawoodruff/Web-Design-Challenge/blob/main/Montrose.html<br>
 <br>
-Bootstrap code provided a navigation bar at the top of each page with a dropdown menu to choose a market area to explore.  The user can access each and every page from every other page via the navigation bar. 
+Bootstrap code provided a navigation bar at the top of each page with a dropdown menu to choose a market area to explore.  The user can access each and every page from every other page via the navigation bar. The navigation bar does collapse on smaller screens and market areas are accessed by the icon, depicted by three horizontal lines, located on the right side.
 <br>
 <br>
 Each table on the website have a hover capability in that the record activates with a gray background when the cursor hovers over it.  Tables located in the market areas have the record for that market area shaded for ease of comparability.
